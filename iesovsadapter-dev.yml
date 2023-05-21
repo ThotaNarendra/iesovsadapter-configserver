@@ -15,8 +15,8 @@ Tenants_Configs:
   Tenant-2:
     validationRules:
       install:
-        - validator_7
-        - validator_8
+        - validator_10
+        - validator_20
       remove:
         validator_9
     topics:
