@@ -1,0 +1,24 @@
+disUrl: https://b780e021-70dd-41f2-b320-c18a80b89fad.mock.pstmn.io/disService
+validationUrl: https://b780e021-70dd-41f2-b320-c18a80b89fad.mock.pstmn.io/validation
+
+Tenants_Configs:
+  Tenant-1:
+    validationRules:
+      install:
+        - validator_1
+        - validator_2
+        - validator_3
+      remove:
+        - validator_4
+        - validator_5
+    topics:
+      - tenant-4
+  Tenant-2:
+    validationRules:
+      install:
+        - validator_7
+        - validator_8
+      remove:
+        validator_9
+    topics:
+      - tenant-5
