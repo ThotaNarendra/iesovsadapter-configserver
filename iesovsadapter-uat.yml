@@ -1,6 +1,6 @@
 disUrl: https://f196ca33-e05c-4f26-8052-2c72b25ecb0d.mock.pstmn.io/deviceinformationservice/api/v1/tenants
 validationUrl: https://f196ca33-e05c-4f26-8052-2c72b25ecb0d.mock.pstmn.io/validation
-jwtRetrievalUrl: https://f196ca33-e05c-4f26-8052-2c72b25ecb0d.mock.pstmn.io/validation
+jwtRetrievalUrl: https://f196ca33-e05c-4f26-8052-2c72b25ecb0d.mock.pstmn.io/connect
 Tenants_Configs:
   Tenant-1:
     validationRules:
@@ -12,7 +12,12 @@ Tenants_Configs:
         - validator_4
         - validator_5
     topics:
-      - tenant-4
+      - tenant-1
+    clientCredentials:
+      client_id: 3001215J
+      client_secret: jersey369
+      grant_type: client_credentials
+      scope: token
   Tenant-2:
     validationRules:
       install:
@@ -21,7 +26,11 @@ Tenants_Configs:
       remove:
         validator_9
     topics:
-      - tenant-5
+      - tenant-2
+    clientCredentials:
+      client_id: 3001815J
+      client_secret: jersey369
+      grant_type: client_credentials
+      scope: token
 
-
-disTenantId: tenant-40
+disTenantId: tenant-50
