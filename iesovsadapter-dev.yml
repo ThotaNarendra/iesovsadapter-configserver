@@ -1,6 +1,6 @@
-disUrl: https://f196ca33-e05c-4f26-8052-2c72b25ecb0d.mock.pstmn.io/deviceinformationservice/api/v1/tenants
-validationUrl: https://f196ca33-e05c-4f26-8052-2c72b25ecb0d.mock.pstmn.io/validation
-jwtRetrievalUrl: https://f196ca33-e05c-4f26-8052-2c72b25ecb0d.mock.pstmn.io/connect
+disUrl: https://51acc153-839d-4c2c-9963-d7d72ee08981.mock.pstmn.io/deviceinformationservice/api/v1/tenants
+validationUrl: https://51acc153-839d-4c2c-9963-d7d72ee08981.mock.pstmn.io/validation
+jwtRetrievalUrl: https://51acc153-839d-4c2c-9963-d7d72ee08981.mock.pstmn.io/connect
 Tenants_Configs:
   Tenant-1:
     validationRules:
