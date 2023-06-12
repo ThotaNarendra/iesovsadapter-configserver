@@ -34,3 +34,6 @@ Tenants_Configs:
       scope: token
 
 disTenantId: tenant-40
+
+decrypt:
+  key: mySecret
