@@ -1,6 +1,6 @@
-disUrl: https://f196ca33-e05c-4f26-8052-2c72b25ecb0d.mock.pstmn.io/deviceinformationservice/api/v1/tenants
-validationUrl: https://f196ca33-e05c-4f26-8052-2c72b25ecb0d.mock.pstmn.io/validation
-jwtRetrievalUrl: https://f196ca33-e05c-4f26-8052-2c72b25ecb0d.mock.pstmn.io/connect
+disUrl: https://51acc153-839d-4c2c-9963-d7d72ee08981.mock.pstmn.io/deviceinformationservice/api/v1/tenants
+validationUrl: https://51acc153-839d-4c2c-9963-d7d72ee08981.mock.pstmn.io/validation
+jwtRetrievalUrl: https://51acc153-839d-4c2c-9963-d7d72ee08981.mock.pstmn.io/connect
 Tenants_Configs:
   Tenant-1:
     validationRules:
@@ -15,7 +15,7 @@ Tenants_Configs:
       - tenant-1
     clientCredentials:
       client_id: 3001215J
-      client_secret: jersey369
+      client_secret: ENC(h/JLnK9SvNszs2f6dJK6CXGuHR3kJxpleKZXw2EtnPY3o3kErThJbg==)
       grant_type: client_credentials
       scope: token
   Tenant-2:
@@ -29,10 +29,11 @@ Tenants_Configs:
       - tenant-2
     clientCredentials:
       client_id: 3001815J
-      client_secret: jersey369
+      client_secret: ENC(h/JLnK9SvNszs2f6dJK6CXGuHR3kJxpleKZXw2EtnPY3o3kErThJbg==)
       grant_type: client_credentials
       scope: token
 
 disTenantId: tenant-50
+
 decrypt:
   key: mySecret
