@@ -15,7 +15,7 @@ Tenants_Configs:
       - tenant-1
     clientCredentials:
       client_id: 3001215J
-      client_secret: jersey369
+      client_secret: ENC(h/JLnK9SvNszs2f6dJK6CXGuHR3kJxpleKZXw2EtnPY3o3kErThJbg==)
       grant_type: client_credentials
       scope: token
   Tenant-2:
@@ -29,7 +29,7 @@ Tenants_Configs:
       - tenant-2
     clientCredentials:
       client_id: 3001815J
-      client_secret: jersey369
+      client_secret: ENC(h/JLnK9SvNszs2f6dJK6CXGuHR3kJxpleKZXw2EtnPY3o3kErThJbg==)
       grant_type: client_credentials
       scope: token
 
