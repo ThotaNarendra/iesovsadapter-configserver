@@ -37,3 +37,9 @@ disTenantId: tenant-40
 
 decrypt:
   key: mySecret
+id: 1
+ownerID: default
+contextID: default
+contentType: application/json
+compressed: true
+compress: false
